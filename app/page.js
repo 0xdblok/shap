@@ -75,6 +75,7 @@ export default function Home() {
                                               src="https://api.builder.io/api/v1/image/assets/a1f651923c4f4ccba90a7e425f036379/7f8e6f7fca809cb38911f6ef1701083a8ae76ddf?apiKey=a1f651923c4f4ccba90a7e425f036379&"
                                               className="object-contain w-full aspect-square"
                                             />
+                                           
                                           </div>
                                           <div className="flex absolute right-0 bottom-0 z-0 flex-col justify-center h-[292px] min-h-[292px] w-[292px]">
                                             <div className="flex flex-1 w-full min-h-[292px]" />
@@ -124,24 +125,15 @@ export default function Home() {
                                 </div>
                                 <div className="flex flex-col mt-36 max-w-full text-xl tracking-tighter leading-5 text-center text-gray-800 min-h-[65px] w-[181px] max-md:mt-10">
                                   <div className="flex flex-col w-full">
-                                    <div className="flex relative flex-col justify-center px-1 py-3 w-full aspect-[2.828]">
-                                      <Image
-                                        alt="Shape"
-                                        width={41}
-                                        height={41}
-                                        loading="lazy"
-                                        src="https://api.builder.io/api/v1/image/assets/a1f651923c4f4ccba90a7e425f036379/9013750acb65c4e41258c13d0be0b123d2b89aab?apiKey=a1f651923c4f4ccba90a7e425f036379&"
-                                        className="object-cover absolute inset-0 size-full"
-                                      />
+                                    <div className="flex flex-col justify-center  w-full aspect-[2.828]">
+                                   
+                                     <a className="inline-flex items-center justify-center px-32 py-4 rounded-full bg-green-500 text-gray-900 font-semibold shadow hover:bg-green-400 active:bg-green-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500 disabled:opacity-50">
+                                      Will be available soon!
+                                      </a>
+                                    
                                       <div className="flex relative flex-col min-h-[41px]">
                                         <div className="flex flex-col pt-1 w-full h-[41px]">
-                                          <div className="flex flex-col items-center w-full">
-                                            <div>
-                                              Will be available
-                                              <br />
-                                              soon!
-                                            </div>
-                                          </div>
+                                        
                                         </div>
                                       </div>
                                     </div>
