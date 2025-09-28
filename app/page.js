@@ -3,15 +3,15 @@ import Image from "next/image";
 export default function Home() {
   return (
     
-    <div className="flex overflow-hidden flex-col min-h-[900px]">
-    <div className="flex flex-col w-full bg-gray-800 max-md:max-w-full">
+    <div className="flex overflow-hidden flex-col min-h-[900px] w-full">
+    <div className="flex flex-col  w-full w- bg-gray-800 max-md:max-w-full ">
       <div className="flex flex-col w-full max-md:max-w-full">
-        <div className="flex overflow-hidden flex-col w-full bg-white max-md:max-w-full">
+        <div className="flex overflow-hidden flex-col w-full  max-md:max-w-full">
           <div className="flex flex-col justify-center w-full min-h-[768px] max-md:max-w-full">
             <div className="flex flex-col flex-1 w-full max-md:max-w-full">
               <div className="flex overflow-hidden justify-center items-center w-full min-h-[768px] max-md:max-w-full">
                 <div className="flex flex-col self-stretch my-auto w-[1440px] max-md:max-w-full">
-                  <div className="flex overflow-hidden flex-col w-full bg-white min-h-[768px] max-md:max-w-full">
+                  <div className="flex overflow-hidden flex-col w-full  min-h-[768px] max-md:max-w-full">
                     <div className="flex flex-col w-full max-md:max-w-full">
                       <div className="flex flex-col w-full max-md:max-w-full">
                         <div className="px-20 pt-14 w-full bg-gray-800 max-md:px-5 max-md:max-w-full">
@@ -68,6 +68,7 @@ export default function Home() {
                                         <div className="flex overflow-hidden relative flex-col flex-1 justify-center w-full">
                                           <div className="flex z-0 flex-col flex-1 w-full">
                                             <Image
+                                              alt="Shape"
                                               width={299}
                                               height={299}
                                               loading="lazy"
@@ -163,12 +164,12 @@ export default function Home() {
     <div className="flex flex-col w-full max-md:max-w-full">
       <div className="flex z-10 flex-col w-full bg-gray-800 max-md:max-w-full">
         <div className="flex flex-col w-full max-md:max-w-full">
-          <div className="flex overflow-hidden flex-col w-full bg-white max-md:max-w-full">
+          <div className="flex overflow-hidden flex-col w-full  max-md:max-w-full">
             <div className="flex flex-col justify-center w-full min-h-[768px] max-md:max-w-full">
               <div className="flex flex-col flex-1 w-full max-md:max-w-full">
                 <div className="flex overflow-hidden justify-center items-center w-full min-h-[768px] max-md:max-w-full">
                   <div className="flex flex-col self-stretch my-auto w-[1440px] max-md:max-w-full">
-                    <div className="flex overflow-hidden flex-col w-full bg-white min-h-[768px] max-md:max-w-full">
+                    <div className="flex overflow-hidden flex-col w-full  min-h-[768px] max-md:max-w-full">
                       <div className="flex flex-col w-full max-md:max-w-full">
                         <div className="flex flex-col w-full max-md:max-w-full">
                           <div className="flex flex-col pt-14 pl-20 w-full bg-gray-800 max-md:pl-5 max-md:max-w-full">
@@ -405,12 +406,12 @@ export default function Home() {
     <div className="flex flex-col w-full max-md:max-w-full">
       <div className="flex z-10 flex-col w-full bg-green-500 max-md:max-w-full">
         <div className="flex flex-col w-full max-md:max-w-full">
-          <div className="flex overflow-hidden flex-col w-full bg-white max-md:max-w-full">
+          <div className="flex overflow-hidden flex-col w-full  max-md:max-w-full">
             <div className="flex flex-col justify-center w-full min-h-[768px] max-md:max-w-full">
               <div className="flex flex-col flex-1 w-full max-md:max-w-full">
                 <div className="flex overflow-hidden justify-center items-center w-full min-h-[768px] max-md:max-w-full">
                   <div className="flex flex-col self-stretch my-auto w-[1440px] max-md:max-w-full">
-                    <div className="flex overflow-hidden flex-col w-full bg-white min-h-[768px] max-md:max-w-full">
+                    <div className="flex overflow-hidden flex-col w-full min-h-[768px] max-md:max-w-full">
                       <div className="flex flex-col w-full max-md:max-w-full">
                         <div className="flex flex-col w-full max-md:max-w-full">
                           <div className="flex flex-col items-start px-20 pt-14 pb-48 w-full bg-green-500 max-md:px-5 max-md:pb-24 max-md:max-w-full">
@@ -518,12 +519,12 @@ export default function Home() {
     <div className="flex flex-col w-full max-md:max-w-full">
       <div className="flex z-10 flex-col w-full bg-green-500 max-md:max-w-full">
         <div className="flex flex-col w-full max-md:max-w-full">
-          <div className="flex overflow-hidden flex-col w-full bg-white max-md:max-w-full">
+          <div className="flex overflow-hidden flex-col w-full  max-md:max-w-full">
             <div className="flex flex-col justify-center w-full min-h-[768px] max-md:max-w-full">
               <div className="flex flex-col flex-1 w-full max-md:max-w-full">
                 <div className="flex overflow-hidden justify-center items-center w-full min-h-[768px] max-md:max-w-full">
                   <div className="flex flex-col self-stretch my-auto w-[1440px] max-md:max-w-full">
-                    <div className="flex overflow-hidden flex-col w-full bg-white min-h-[768px] max-md:max-w-full">
+                    <div className="flex overflow-hidden flex-col w-full  min-h-[768px] max-md:max-w-full">
                       <div className="flex flex-col w-full max-md:max-w-full">
                         <div className="flex flex-col w-full max-md:max-w-full">
                           <div className="flex flex-col px-20 pt-16 pb-44 w-full bg-green-500 max-md:px-5 max-md:pb-24 max-md:max-w-full">
