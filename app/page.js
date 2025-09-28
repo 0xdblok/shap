@@ -21,7 +21,10 @@ export default function Home() {
                                 <div className="flex items-start max-w-full w-[255px]">
                                   <div className="flex flex-col justify-center min-h-[80px]">
                                     <div className="flex overflow-hidden flex-col flex-1 w-full">
-                                      <img
+                                      <Image
+                                        width={20}
+                                        height={20}
+                                        alt="Shape"
                                         loading="lazy"
                                         src="https://api.builder.io/api/v1/image/assets/a1f651923c4f4ccba90a7e425f036379/fd407a748b8afac279b15bc50fd9cb2607d979d7?apiKey=a1f651923c4f4ccba90a7e425f036379&"
                                         className="object-contain w-20 aspect-square"
@@ -31,7 +34,10 @@ export default function Home() {
                                   </div>
                                   <div className="flex flex-col mt-8 w-full text-2xl font-bold tracking-tighter leading-none text-green-100 uppercase whitespace-nowrap min-h-[68px]">
                                     <div className="flex gap-4 items-start w-full">
-                                      <img
+                                      <Image
+                                        width={10}
+                                        height={10}
+                                        alt="Shape"
                                         loading="lazy"
                                         src="https://api.builder.io/api/v1/image/assets/a1f651923c4f4ccba90a7e425f036379/367641850263d2241181fdd7f6ed825c19e79e40?apiKey=a1f651923c4f4ccba90a7e425f036379&"
                                         className="object-contain shrink-0 w-10 aspect-square"
@@ -61,7 +67,9 @@ export default function Home() {
                                       <div className="flex flex-col justify-center max-w-full min-h-[292px] rotate-[3.141592653589793rad] w-[292px]">
                                         <div className="flex overflow-hidden relative flex-col flex-1 justify-center w-full">
                                           <div className="flex z-0 flex-col flex-1 w-full">
-                                            <img
+                                            <Image
+                                              width={299}
+                                              height={299}
                                               loading="lazy"
                                               src="https://api.builder.io/api/v1/image/assets/a1f651923c4f4ccba90a7e425f036379/7f8e6f7fca809cb38911f6ef1701083a8ae76ddf?apiKey=a1f651923c4f4ccba90a7e425f036379&"
                                               className="object-contain w-full aspect-square"
@@ -116,7 +124,10 @@ export default function Home() {
                                 <div className="flex flex-col mt-36 max-w-full text-xl tracking-tighter leading-5 text-center text-gray-800 min-h-[65px] w-[181px] max-md:mt-10">
                                   <div className="flex flex-col w-full">
                                     <div className="flex relative flex-col justify-center px-1 py-3 w-full aspect-[2.828]">
-                                      <img
+                                      <Image
+                                        alt="Shape"
+                                        width={41}
+                                        height={41}
                                         loading="lazy"
                                         src="https://api.builder.io/api/v1/image/assets/a1f651923c4f4ccba90a7e425f036379/9013750acb65c4e41258c13d0be0b123d2b89aab?apiKey=a1f651923c4f4ccba90a7e425f036379&"
                                         className="object-cover absolute inset-0 size-full"
@@ -197,7 +208,10 @@ export default function Home() {
                             <div className="flex gap-5 justify-between items-center mt-12 max-md:mt-10">
                               <div className="flex flex-col self-stretch my-auto">
                                 <div className="flex relative flex-col justify-center items-center px-20 py-20 w-full aspect-[1.204] max-md:px-5">
-                                  <img
+                                  <Image
+                                    alt="Shape"
+                                    width={171}
+                                    height={171}
                                     loading="lazy"
                                     src="https://api.builder.io/api/v1/image/assets/a1f651923c4f4ccba90a7e425f036379/4c188cf7c9103e42fb00abc0eb61bf2b1b7e4cde?apiKey=a1f651923c4f4ccba90a7e425f036379&"
                                     className="object-cover absolute inset-0 size-full"
@@ -253,7 +267,10 @@ export default function Home() {
                               </div>
                               <div className="flex flex-col self-stretch my-auto">
                                 <div className="flex relative flex-col justify-center items-center px-20 py-20 w-full aspect-[1.21] max-md:px-5">
-                                  <img
+                                  <Image
+                                    alt="Shape"
+                                    width={171}
+                                    height={171}
                                     loading="lazy"
                                     src="https://api.builder.io/api/v1/image/assets/a1f651923c4f4ccba90a7e425f036379/f4bde01813352fe01c3f5d6e3ac7a61d3e6f5760?apiKey=a1f651923c4f4ccba90a7e425f036379&"
                                     className="object-cover absolute inset-0 size-full"
@@ -309,7 +326,10 @@ export default function Home() {
                               </div>
                               <div className="flex flex-col self-stretch my-auto">
                                 <div className="flex relative flex-col justify-center items-center px-20 py-20 w-full aspect-[1.21] max-md:px-5">
-                                  <img
+                                  <Image
+                                    alt="Shape"
+                                    width={171}
+                                    height={171}
                                     loading="lazy"
                                     src="https://api.builder.io/api/v1/image/assets/a1f651923c4f4ccba90a7e425f036379/cdec423a4b9177ca349e959c3fdc92e07932cd67?apiKey=a1f651923c4f4ccba90a7e425f036379&"
                                     className="object-cover absolute inset-0 size-full"
@@ -361,7 +381,10 @@ export default function Home() {
                                   </div>
                                 </div>
                               </div>
-                              <img
+                              <Image
+                                alt="Shape"
+                                width={78}
+                                height={78}
                                 loading="lazy"
                                 src="https://api.builder.io/api/v1/image/assets/a1f651923c4f4ccba90a7e425f036379/d32cfbca8211a48595b89a6b8df8fb0698065bbe?apiKey=a1f651923c4f4ccba90a7e425f036379&"
                                 className="object-contain shrink-0 self-stretch aspect-[0.14] w-[78px]"
