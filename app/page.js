@@ -1,10 +1,20 @@
 import Image from "next/image";
 
+import expect from "./img/expect.png"
+import nothing from "./img/nothing.png"
+import protocol from "./img/protocol.png"
+import hero from "./img/hero.png"
+import creating from "./img/creating.png"
+import build from "./img/build.png"
+import global from "./img/global.png"
+import logo from "./img/logo.png"
+
+
 export default function Home() {
   return (
     
     <div className="flex overflow-hidden flex-col min-h-[900px] w-full">
-    <div className="flex flex-col  w-full w- bg-gray-800 max-md:max-w-full ">
+    <div className="flex flex-col  w-full w- bg-[#1E392B] max-md:max-w-full ">
       <div className="flex flex-col w-full max-md:max-w-full">
         <div className="flex overflow-hidden flex-col w-full  max-md:max-w-full">
           <div className="flex flex-col justify-center w-full min-h-[768px] max-md:max-w-full">
@@ -14,33 +24,24 @@ export default function Home() {
                   <div className="flex overflow-hidden flex-col w-full  min-h-[768px] max-md:max-w-full">
                     <div className="flex flex-col w-full max-md:max-w-full">
                       <div className="flex flex-col w-full max-md:max-w-full">
-                        <div className="px-20 pt-14 w-full bg-gray-800 max-md:px-5 max-md:max-w-full">
+                        <div className="px-20 pt-14 w-full bg-[#1E392B] max-md:px-5 max-md:max-w-full">
                           <div className="flex gap-5 max-md:flex-col">
                             <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
                               <div className="flex flex-col items-start w-full max-md:mt-10 max-md:max-w-full">
                                 <div className="flex items-start max-w-full w-[255px]">
                                   <div className="flex flex-col justify-center min-h-[80px]">
-                                    <div className="flex overflow-hidden flex-col flex-1 w-full">
-                                      <Image
-                                        width={20}
-                                        height={20}
-                                        alt="Shape"
-                                        loading="lazy"
-                                        src="https://api.builder.io/api/v1/image/assets/a1f651923c4f4ccba90a7e425f036379/fd407a748b8afac279b15bc50fd9cb2607d979d7?apiKey=a1f651923c4f4ccba90a7e425f036379&"
-                                        className="object-contain w-20 aspect-square"
-                                      />
-                                     
-                                    </div>
+                                  
                                   </div>
                                   <div className="flex flex-col mt-8 w-full text-2xl font-bold tracking-tighter leading-none text-green-100 uppercase whitespace-nowrap min-h-[68px]">
                                     <div className="flex gap-4 items-start w-full">
+                                      
                                       <Image
-                                        width={10}
-                                        height={10}
+                                        width={50}
+                                        height={50}
                                         alt="Shape"
                                         loading="lazy"
-                                        src="https://api.builder.io/api/v1/image/assets/a1f651923c4f4ccba90a7e425f036379/367641850263d2241181fdd7f6ed825c19e79e40?apiKey=a1f651923c4f4ccba90a7e425f036379&"
-                                        className="object-contain shrink-0 w-10 aspect-square"
+                                        src={logo}
+                                        className="object-contain shrink-0 w-aspect-square"
                                       />
                                       <div className="flex flex-col mt-3 min-h-[55px]">
                                         <div className="flex flex-col justify-center py-px max-w-full min-h-[55px] w-[181px]">
@@ -63,17 +64,18 @@ export default function Home() {
                                         </div>
                                       </div>
                                     </div>
-                                    <div className="flex flex-col self-end max-w-full w-[362px]">
-                                      <div className="flex flex-col justify-center max-w-full min-h-[292px] rotate-[3.141592653589793rad] w-[292px]">
+                                    <div className="flex flex-col self-end max-w-full ">
+                                      <div className="flex flex-col justify-center max-w-full rotate-[3.141592653589793rad] ">
                                         <div className="flex overflow-hidden relative flex-col flex-1 justify-center w-full">
                                           <div className="flex z-0 flex-col flex-1 w-full">
+                                            
                                             <Image
                                               alt="Shape"
-                                              width={299}
-                                              height={299}
+                                              width={599}
+                                              height={599}
                                               loading="lazy"
-                                              src="https://api.builder.io/api/v1/image/assets/a1f651923c4f4ccba90a7e425f036379/7f8e6f7fca809cb38911f6ef1701083a8ae76ddf?apiKey=a1f651923c4f4ccba90a7e425f036379&"
-                                              className="object-contain w-full aspect-square"
+                                              src={hero}
+                                              className=" w-full aspect-square"
                                             />
                                            
                                           </div>
@@ -154,7 +156,7 @@ export default function Home() {
       </div>
     </div>
     <div className="flex flex-col w-full max-md:max-w-full">
-      <div className="flex z-10 flex-col w-full bg-gray-800 max-md:max-w-full">
+      <div className="flex z-10 flex-col w-full bg-[#1E392B] max-md:max-w-full">
         <div className="flex flex-col w-full max-md:max-w-full">
           <div className="flex overflow-hidden flex-col w-full  max-md:max-w-full">
             <div className="flex flex-col justify-center w-full min-h-[768px] max-md:max-w-full">
@@ -164,7 +166,7 @@ export default function Home() {
                     <div className="flex overflow-hidden flex-col w-full  min-h-[768px] max-md:max-w-full">
                       <div className="flex flex-col w-full max-md:max-w-full">
                         <div className="flex flex-col w-full max-md:max-w-full">
-                          <div className="flex flex-col pt-14 pl-20 w-full bg-gray-800 max-md:pl-5 max-md:max-w-full">
+                          <div className="flex flex-col pt-14 pl-20 w-full bg-[#1E392B] max-md:pl-5 max-md:max-w-full">
                             <div className="self-center w-full max-w-[1212px] max-md:max-w-full">
                               <div className="flex gap-5 max-md:flex-col">
                                 <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
@@ -206,7 +208,7 @@ export default function Home() {
                                     width={171}
                                     height={171}
                                     loading="lazy"
-                                    src="https://api.builder.io/api/v1/image/assets/a1f651923c4f4ccba90a7e425f036379/4c188cf7c9103e42fb00abc0eb61bf2b1b7e4cde?apiKey=a1f651923c4f4ccba90a7e425f036379&"
+                                    src={creating}
                                     className="object-cover absolute inset-0 size-full"
                                   />
                                   <div className="flex relative flex-col max-w-full min-h-[155px] rotate-[1.5707963267948966rad] w-[171px]">
@@ -265,7 +267,7 @@ export default function Home() {
                                     width={171}
                                     height={171}
                                     loading="lazy"
-                                    src="https://api.builder.io/api/v1/image/assets/a1f651923c4f4ccba90a7e425f036379/f4bde01813352fe01c3f5d6e3ac7a61d3e6f5760?apiKey=a1f651923c4f4ccba90a7e425f036379&"
+                                    src={build}
                                     className="object-cover absolute inset-0 size-full"
                                   />
                                   <div className="flex relative flex-col max-w-full min-h-[155px] rotate-[1.5707963267948966rad] w-[171px]">
@@ -319,12 +321,14 @@ export default function Home() {
                               </div>
                               <div className="flex flex-col self-stretch my-auto">
                                 <div className="flex relative flex-col justify-center items-center px-20 py-20 w-full aspect-[1.21] max-md:px-5">
+
+                                
                                   <Image
                                     alt="Shape"
                                     width={171}
                                     height={171}
                                     loading="lazy"
-                                    src="https://api.builder.io/api/v1/image/assets/a1f651923c4f4ccba90a7e425f036379/cdec423a4b9177ca349e959c3fdc92e07932cd67?apiKey=a1f651923c4f4ccba90a7e425f036379&"
+                                    src={global}
                                     className="object-cover absolute inset-0 size-full"
                                   />
                                   <div className="flex relative flex-col max-w-full min-h-[155px] rotate-[1.5707963267948966rad] w-[172px]">
@@ -374,14 +378,7 @@ export default function Home() {
                                   </div>
                                 </div>
                               </div>
-                              <Image
-                                alt="Shape"
-                                width={78}
-                                height={78}
-                                loading="lazy"
-                                src="https://api.builder.io/api/v1/image/assets/a1f651923c4f4ccba90a7e425f036379/d32cfbca8211a48595b89a6b8df8fb0698065bbe?apiKey=a1f651923c4f4ccba90a7e425f036379&"
-                                className="object-contain shrink-0 self-stretch aspect-[0.14] w-[78px]"
-                              />
+                         
                             </div>
                           </div>
                         </div>
@@ -396,7 +393,7 @@ export default function Home() {
       </div>
     </div>
     <div className="flex flex-col w-full max-md:max-w-full">
-      <div className="flex z-10 flex-col w-full bg-green-500 max-md:max-w-full">
+      <div className="flex z-10 flex-col w-full bg-[#13DF72] max-md:max-w-full">
         <div className="flex flex-col w-full max-md:max-w-full">
           <div className="flex overflow-hidden flex-col w-full  max-md:max-w-full">
             <div className="flex flex-col justify-center w-full min-h-[768px] max-md:max-w-full">
@@ -406,7 +403,7 @@ export default function Home() {
                     <div className="flex overflow-hidden flex-col w-full min-h-[768px] max-md:max-w-full">
                       <div className="flex flex-col w-full max-md:max-w-full">
                         <div className="flex flex-col w-full max-md:max-w-full">
-                          <div className="flex flex-col items-start px-20 pt-14 pb-48 w-full bg-green-500 max-md:px-5 max-md:pb-24 max-md:max-w-full">
+                          <div className="flex flex-col items-start px-20 pt-14 pb-48 w-full bg-[#13DF72] max-md:px-5 max-md:pb-24 max-md:max-w-full">
                             <div className="flex flex-col mb-0 w-full max-w-[1170px] max-md:mb-2.5 max-md:max-w-full">
                               <div className="flex flex-col max-w-full text-8xl font-bold tracking-tighter leading-none text-gray-800 h-[111px] w-[606px] max-md:text-4xl">
                                 <div className="flex flex-col justify-center py-3.5 w-full min-h-[111px] max-md:text-4xl">
@@ -417,13 +414,23 @@ export default function Home() {
                                   </div>
                                 </div>
                               </div>
+                             
                               <div className="mt-40 max-md:mt-10 max-md:max-w-full">
                                 <div className="flex gap-5 max-md:flex-col">
+                                  
                                   <div className="flex flex-col w-[33%] max-md:ml-0 max-md:w-full">
                                     <div className="flex flex-col grow text-2xl font-bold tracking-tighter leading-8 text-gray-800 min-h-[239px] max-md:mt-10">
                                       <div className="flex flex-col pt-36 max-w-full w-[342px] max-md:pt-24">
                                         <div className="flex z-10 flex-col min-h-[93px]">
                                           <div className="flex flex-col w-full min-h-[93px]">
+                                                <Image
+                                        width={150}
+                                        height={150}
+                                        alt="Shape"
+                                        loading="lazy"
+                                        src={protocol}
+                                        className=""
+                                      />
                                             <div className="flex flex-col w-full">
                                               <div>
                                                 Shape protocol offers free
@@ -451,9 +458,20 @@ export default function Home() {
                                             </div>
                                           </div>
                                         </div>
-                                        <div className="flex flex-col mt-6 text-2xl font-bold tracking-tighter leading-8 text-gray-800 min-h-[92px]">
+                                          <Image
+                                        width={200}
+                                        height={200}
+                                        alt="Shape"
+                                        loading="lazy"
+                                        src={expect}
+                                        className="flex items-center justify-center"
+                                      />
+                                        <div className="flex flex-col mt-6 text-2xl font-bold tracking-tighter leading-8 text-gray-800">
+                                       
                                           <div className="flex flex-col w-full min-h-[92px]">
+                                         
                                             <div className="flex flex-col w-full">
+                                              
                                               <div>
                                                 Expect for Global
                                                 Accessibility
@@ -479,6 +497,14 @@ export default function Home() {
                                             </div>
                                           </div>
                                         </div>
+                                        <Image
+                                        width={200}
+                                        height={200}
+                                        alt="Shape"
+                                        loading="lazy"
+                                        src={nothing}
+                                        className=""
+                                      />
                                         <div className="flex z-10 flex-col mt-7 text-2xl font-bold tracking-tighter leading-8 text-gray-800 min-h-[60px]">
                                           <div className="flex flex-col w-full min-h-[60px]">
                                             <div className="flex flex-col w-full">
@@ -509,7 +535,7 @@ export default function Home() {
       </div>
     </div>
     <div className="flex flex-col w-full max-md:max-w-full">
-      <div className="flex z-10 flex-col w-full bg-green-500 max-md:max-w-full">
+      <div className="flex z-10 flex-col w-full bg-[#13DF72] max-md:max-w-full">
         <div className="flex flex-col w-full max-md:max-w-full">
           <div className="flex overflow-hidden flex-col w-full  max-md:max-w-full">
             <div className="flex flex-col justify-center w-full min-h-[768px] max-md:max-w-full">
@@ -519,7 +545,7 @@ export default function Home() {
                     <div className="flex overflow-hidden flex-col w-full  min-h-[768px] max-md:max-w-full">
                       <div className="flex flex-col w-full max-md:max-w-full">
                         <div className="flex flex-col w-full max-md:max-w-full">
-                          <div className="flex flex-col px-20 pt-16 pb-44 w-full bg-green-500 max-md:px-5 max-md:pb-24 max-md:max-w-full">
+                          <div className="flex flex-col px-20 pt-16 pb-44 w-full bg-[#13DF72] max-md:px-5 max-md:pb-24 max-md:max-w-full">
                             <div className="flex flex-wrap gap-5 justify-between items-start w-full font-bold tracking-tighter text-gray-800 max-w-[1238px] max-md:max-w-full">
                               <div className="flex flex-col self-start text-8xl leading-[83px] min-h-[277px] max-md:max-w-full max-md:text-4xl max-md:leading-10">
                                 <div className="flex flex-col justify-center py-3.5 max-w-full min-h-[277px] w-[596px] max-md:text-4xl max-md:leading-10">
