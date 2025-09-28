@@ -36,8 +36,8 @@ export default function Home() {
                                     <div className="flex gap-4 items-start w-full">
                                       
                                       <Image
-                                        width={50}
-                                        height={50}
+                                        width={55}
+                                        height={55}
                                         alt="Shape"
                                         loading="lazy"
                                         src={logo}
@@ -166,12 +166,12 @@ export default function Home() {
                     <div className="flex overflow-hidden flex-col w-full  min-h-[768px] max-md:max-w-full">
                       <div className="flex flex-col w-full max-md:max-w-full">
                         <div className="flex flex-col w-full max-md:max-w-full">
-                          <div className="flex flex-col pt-14 pl-20 w-full bg-[#1E392B] max-md:pl-5 max-md:max-w-full">
+                          <div className="flex flex-col pl-20 w-full bg-[#1E392B] max-md:pl-5 max-md:max-w-full">
                             <div className="self-center w-full max-w-[1212px] max-md:max-w-full">
                               <div className="flex gap-5 max-md:flex-col">
                                 <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
-                                  <div className="flex flex-col grow text-8xl font-bold tracking-tighter leading-none text-green-500 min-h-[111px] max-md:mt-5 max-md:max-w-full max-md:text-4xl">
-                                    <div className="flex flex-col justify-center py-3.5 max-w-full min-h-[111px] w-[596px] max-md:text-4xl">
+                                  <div className="flex flex-col grow text-8xl font-bold tracking-tighter leading-none text-green-500 min-h-[111px] max-md:max-w-full max-md:text-4xl">
+                                    <div className="flex flex-col justify-center max-w-full min-h-[111px] w-[596px] max-md:text-4xl">
                                       <div className="flex flex-col w-full max-md:max-w-full max-md:text-4xl">
                                         <div className="max-md:max-w-full max-md:text-4xl">
                                           Our Work
